@@ -169,7 +169,7 @@
         $listkeyasvalue = [];
         
         foreach($list as $lkey=>$lvalue){
-            $listkeyasvalue[$lvalue["value]] = $lvalue;
+            $listkeyasvalue[$lvalue["value"]] = $lvalue;
         }
 
 
