@@ -166,4 +166,11 @@
             [ "label"=>"Auslan","value"=>"LS-AUS", "data-shorten"=>"", "data-type"=>"sign"],
         ];
 
+        $listkeyasvalue = [];
+        
+        foreach($list as $lkey=>$lvalue){
+            $listkeyasvalue[$lvalue["value]] = $lvalue;
+        }
+
+
 ?>
